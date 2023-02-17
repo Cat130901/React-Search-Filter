@@ -5,12 +5,13 @@ import "./styles.css";
 function App() {
   //list 
   const list = [
-    "Banana",
-    "Apple",
-    "Orange",
-    "Mango",
-    "Pineapple",
-    "Watermelon"
+    "Facebook",
+    "Twitter",
+    "Reddit",
+    "Youtube",
+    "Instagram",
+    "Discord",
+    "Github"
   ];
 
   const [filterList, setFilterList] = useState(list);
